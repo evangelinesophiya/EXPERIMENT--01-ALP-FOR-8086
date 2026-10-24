@@ -78,21 +78,62 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
-
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+add ax,bx
+mov [1200h], ax
+mov [1202h], dx
+hlt
+```
 ## Output  
+<img width="1920" height="1080" alt="Screenshot (140)" src="https://github.com/user-attachments/assets/3b1ac438-e5e1-467f-942f-b72998b9e420" />
+
  
 ## Subtraction   of 8 bit numbers  ALP 
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+sub ax,bx
+mov [1200h],ax
+mov [1202h],dx
+hlt
+
+```
  
 ## Output  
-## Multiplication alp 
+<img width="1920" height="1080" alt="Screenshot (141)" src="https://github.com/user-attachments/assets/2a6f7ffe-6c86-4da8-a22e-cf9de825aed9" />
+
+## Multiplication alp
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+mul bx
+mov [1200h],ax
+mov [1202h],dx
+hlt
+```
  ## Output  
+<img width="1920" height="1080" alt="Screenshot (139)" src="https://github.com/user-attachments/assets/f8d84030-1aec-44c0-9ceb-9f4ef53e79c2" />
 
 
 ## Division alp 
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+div bx
+mov [1200h],ax
+mov [1202h],dx
+hlt
 
+```
 ## Output  
+<img width="1535" height="862" alt="image" src="https://github.com/user-attachments/assets/c451cfb0-d302-499d-a3e2-621d135eee1b" />
+
 
 
 ## Result :
