@@ -144,7 +144,9 @@ ret
 ```
 ## OUTPUT
 <img width="1520" height="1128" alt="image" src="https://github.com/user-attachments/assets/3970b29b-75d7-4236-9a20-8f70ed6ce59b" />
+
 ## NOR ALP
+
 ```
 org 100h
 mov ax,[1100h]
