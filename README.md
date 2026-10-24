@@ -144,11 +144,41 @@ ret
 ```
 ## OUTPUT
 <img width="1520" height="1128" alt="image" src="https://github.com/user-attachments/assets/3970b29b-75d7-4236-9a20-8f70ed6ce59b" />
+## NOR ALP
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+or ax,bx
+not ax
+ret
+```
+## OUTPUT
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/9d713f54-a817-47c0-92af-b90fdf5d0cf1" />
 
+## XNOR ALP
+```
+org 100h
+mov ax,[1100h]
+mov bx,[1102h]
+xor ax,bx
+ret
+```
+## OUTPUT
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/e5b0563c-d247-416f-a617-32cd2b26fc81" />
 
-
+## NOT ALP
+```
+org 100h
+mov ax,[1100h]  
+not ax 
+ret
+```
+## OUTPUT
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/cfb4f0d1-ed88-4c0a-b803-8d3c601947bc" />
 
 ## Result :
+Thus execution of ALP on fundamental arithmetic and logical operations is sucessfully verified.
  
 
 
