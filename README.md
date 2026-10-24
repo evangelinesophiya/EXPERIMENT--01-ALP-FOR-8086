@@ -133,8 +133,12 @@ hlt
 ```
 ## Output  
 <img width="1535" height="862" alt="image" src="https://github.com/user-attachments/assets/c451cfb0-d302-499d-a3e2-621d135eee1b" />
+
+
 ## Programs for logical  operations
+
 ## OR ALP
+
 ```
 org 100h
 mov ax,[1100h]
